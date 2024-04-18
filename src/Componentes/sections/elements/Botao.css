@@ -1,0 +1,10 @@
+.Botao{
+    color: white;
+    border: 2px solid white;
+    background: rgba(1, 9, 28, 0.1);
+    margin-bottom: 10px;
+}
+
+.Botao:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+}

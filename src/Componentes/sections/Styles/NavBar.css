@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    color: rgb(116,250,192);
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}

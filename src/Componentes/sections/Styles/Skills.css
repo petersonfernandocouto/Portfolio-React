@@ -1,0 +1,37 @@
+#Skills {
+    margin-top: 80px;
+    text-align: center;
+    background: rgba(1, 9, 28, .75);
+    max-width: 90%;
+    border-radius: 20px;
+    margin: 75px;
+    padding: 10px;
+}
+
+.IMGSkills img {
+    height: 140px;
+    margin: 35px;
+    cursor: pointer;
+    transition: height 0.8s, transform 0.8s;
+}
+
+.IMGSkills img:hover {
+    height: 200px;
+    transform: translateY(-8px);
+}
+
+.imgHTML:hover{
+    filter: drop-shadow(20px 20px 20px rgb(228,77,37, 0.5));
+}
+
+.imgCSS:hover{
+    filter: drop-shadow(20px 20px 20px rgb(55,154,214, 0.5));
+}
+
+.imgJavaScipt:hover{
+    filter: drop-shadow(20px 20px 20px rgb(247,223,30, 0.5));
+}
+
+.imgReact:hover{
+    filter: drop-shadow(20px 20px 20px rgb(34,34,34, 0.9));
+}

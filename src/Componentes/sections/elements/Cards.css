@@ -1,0 +1,29 @@
+#Cards{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#Cards img{
+    width: 470px;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+#Cards img:hover{
+    transform: translateY(-20px);
+    transition-duration: 0.5s ;
+}
+
+#Info{
+    background: rgba(1, 9, 28, 0.8);
+    border-radius: 15px;
+    padding-left: 20px;
+    width: 500px;
+}
+
+.Info h3{
+    font-size: 32px;
+}

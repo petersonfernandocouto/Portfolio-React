@@ -1,0 +1,27 @@
+#Presentation{
+    margin-left: 17%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(116,250,192);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background: #01091C;
+    color: white;
+    transform: translateY(-8px);
+    transition-duration: 0.8s ;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.548);
+}

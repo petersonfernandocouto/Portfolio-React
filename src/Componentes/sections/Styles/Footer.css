@@ -1,0 +1,29 @@
+
+.FooterStyle ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.FooterStyle li{
+    margin: 10px;
+}
+
+.FooterStyle a{
+    color: white;
+}
+
+.FooterStyle a:hover{
+    color: rgb(116,250,192);
+}
+
+.FooterInformation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.FooterInformation p{
+    margin-left: 40px;
+}
